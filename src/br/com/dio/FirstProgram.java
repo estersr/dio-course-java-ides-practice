@@ -11,6 +11,8 @@ public class FirstProgram {
         System.out.println(livro1);
 
 
+        //ctrl alt v pra acrescentar a variavel int, double etc
+        // ctrl shift k para fazer o push
         //ctrl k abrir area do commit
         // shft ctrl f10 atualizar td, shft f10 so atualizar
         // alt enter criar variavel
