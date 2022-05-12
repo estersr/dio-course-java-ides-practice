@@ -7,7 +7,7 @@ public class Calculator {
 
         Scanner scan = new Scanner(System.in);
 
-        int a, b;
+        double a, b;
         System.out.println("Type the first value: ");
         a = scan.nextInt();
 
@@ -15,10 +15,10 @@ public class Calculator {
         b = scan.nextInt();
 
 
-        int somar = somar(a, b);
-        int subtrair = subtrair(a, b);
-        int multiplicar = multiplicar(a, b);
-        int dividir = dividir(a, b);
+        double somar = somar(a, b);
+        double subtrair = subtrair(a, b);
+        double multiplicar = multiplicar(a, b);
+        double dividir = dividir(a, b);
 
         System.out.println("soma: " + somar);
         System.out.println("subtração: " + subtrair);
@@ -27,16 +27,16 @@ public class Calculator {
 
     }
 
-    public static int somar (int a, int b) {
+    public static double somar (double a, double b) {
         return a + b;
     }
-    public static int subtrair (int a, int b) {
+    public static double subtrair (double a, double b) {
         return a - b;
     }
-    public static int multiplicar (int a, int b) {
+    public static double multiplicar (double a, double b) {
         return a * b;
     }
-    public static int dividir (int a, int b) {
+    public static double dividir (double a, double b) {
         return a / b;
     }
 
